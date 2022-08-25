@@ -1,0 +1,8 @@
+name: I18nUtilTest
+main: vip.floatationdevice.msu.I18nUtilTestPlugin
+author: MCUmbrella
+version: ${version}
+api-version: 1.13
+commands:
+  i18ntest:
+    description: Test I18nUtil

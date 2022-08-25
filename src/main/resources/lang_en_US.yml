@@ -1,0 +1,7 @@
+language: "English (US)"
+language-file-version: 1
+language-file-contributor: "MCUmbrella"
+
+plugin-loaded: "I18nUtil test plugin loaded"
+test-message: "§eHi! You can see this message means that I18nUtil is working properly"
+song: "§aNever gonna give you up\n§bNever gonna let you down\n§cNever gonna run around\n§dand desert you"
