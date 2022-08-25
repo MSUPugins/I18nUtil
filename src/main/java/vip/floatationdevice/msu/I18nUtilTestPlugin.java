@@ -30,6 +30,10 @@ public class I18nUtilTestPlugin extends JavaPlugin implements CommandExecutor
         I18nUtil.setLanguage(I18nUtilTestPlugin.class, cfg.getString("language", "en_US"));
     }
 
+
+    /**
+     * Plugin startup codes.
+     */
     @Override
     public void onEnable()
     {
@@ -39,6 +43,10 @@ public class I18nUtilTestPlugin extends JavaPlugin implements CommandExecutor
         getLogger().info(translate("plugin-loaded")); // translate the 'plugin-loaded' key. the result depends on the value in lang_xx_XX.yml
     }
 
+
+    /**
+     * The /i18ntest command.
+     */
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) // when someone used /i18ntest
     {
@@ -61,6 +69,10 @@ public class I18nUtilTestPlugin extends JavaPlugin implements CommandExecutor
         else return false;
     }
 
+    /**
+     * Plugin shutdown codes.
+     * Nothing to do.
+     */
     @Override
     public void onDisable(){}
 }
