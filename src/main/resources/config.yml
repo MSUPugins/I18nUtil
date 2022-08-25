@@ -1,1 +1,3 @@
+# The language of the plugin.
+# Available: "en_US", "zh_CN"
 language: "en_US"
